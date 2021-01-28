@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.GGJ_2021.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../:\Game jams\Global Game Jam 2021\GGJ_2021\.idea\.idea.GGJ_2021\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
