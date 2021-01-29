@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public float moveSpeed;
-    public Rigidbody2D rb;
+    [SerializeField] float moveSpeed;
     float pointerAngle;
 
-    private Vector2 moveDirection;
+    private Vector2 _moveDirection;
+    private Rigidbody2D _rb;
 
-    // Update is called once per frame
+    void Awake()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
         ProcessInputs();
@@ -26,11 +29,11 @@ public class movement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDirection = new Vector2(moveX, moveY).normalized;
+        _moveDirection = new Vector2(moveX, moveY).normalized;
     }
 
     void Move()
     {
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+        _rb.velocity = new Vector2(_moveDirection.x * moveSpeed, _moveDirection.y * moveSpeed);
     }
 }
