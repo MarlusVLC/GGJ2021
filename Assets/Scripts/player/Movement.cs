@@ -34,12 +34,12 @@ public class Movement : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
 
-        float xForce = xInput * moveSpeed * Time.deltaTime;
-        float yForce = yInput * moveSpeed * Time.deltaTime;
 
-        _moveDirection = new Vector2(xForce, yForce).normalized;
 
-        _rb.AddForce(_moveDirection);
+        _moveDirection = new Vector2(xInput, yInput).normalized;
+        
+
+        _rb.AddForce(_moveDirection * moveSpeed);
     }
 
     void Rotate()
