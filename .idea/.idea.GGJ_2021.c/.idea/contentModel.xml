@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Ly\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ly\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GGJ_2021.c.1804538470.00" t="ExcludeRecursive" />
+    <e p="G:\Game jams\Global Game Jam 2021\GGJ_2021.c" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="player" t="Include">
+            <e p="collision.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+          </e>
+          <e p="SimpleBGScroll.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GGJ_2021.c.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
