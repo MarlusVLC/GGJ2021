@@ -1,55 +1,45 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
-    // [SerializeField] private float moveSpeed;
-    // [SerializeField] private float stopingRate;
-    [SerializeField] private float acceleration;
-    [SerializeField] private float dampingBasic;
-    
-    private Vector2 _moveDirection;
     private Rigidbody2D _rb;
-    private float _moveX, _moveY;
+    private Vector2 _moveDirection;
+    public float moveSpeed = 1;
     private float _defaultAngle;
+    private float _moveDirectionAngle;
 
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _defaultAngle = transform.rotation.eulerAngles.z;
     }
-    void Update()
-    {
-        ProcessInputs();
-    }
 
     void FixedUpdate()
     {
-        Move();
-        Rotate();
+        if (_rb != null)
+        {
+            ApplyInput();
+            Rotate();
+        }
+        else
+        {
+            Debug.Log("Rigid body not attached");
+        }
     }
 
-    void ProcessInputs()
+    public void ApplyInput()
     {
-        _moveX = Input.GetAxisRaw("Horizontal");
-        _moveY = Input.GetAxisRaw("Vertical");
+        float xInput = Input.GetAxis("Horizontal");
+        float yInput = Input.GetAxis("Vertical");
 
-        _moveDirection = new Vector2(_moveX, _moveY).normalized;
-    }
 
-    void Move()
-    {
-        // _rb.velocity = new Vector2(_moveDirection.x * moveSpeed, _moveDirection.y * moveSpeed);
-        //
-        _rb.AddForce(_moveDirection * acceleration);
 
-        // if (_rb.velocity.magnitude > Vector2.zero.magnitude)
-        // {
-        //     _rb.velocity -= _moveDirection * stopingRate;
-        // }
-        _rb.velocity *= Mathf.Pow(1f - dampingBasic, Time.deltaTime * 10f);
+        _moveDirection = new Vector2(xInput, yInput).normalized;
+        
 
+        _rb.AddForce(_moveDirection * moveSpeed);
     }
 
     void Rotate()
