@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f59bd6-7c09-4a1d-9847-4facff791b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/NewMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/player/NewMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player/Materials/barquinho1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player/Materials/barquinho1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player/barquinho1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/player/barquinho1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/collision.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player/collision.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials/rock.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials/rock.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/rock mat.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/rock mat.physicsMaterial2D.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612034296417</updated>
-      <workItem from="1612034349659" duration="5736000" />
+      <workItem from="1612034349659" duration="7120000" />
     </task>
     <servers />
   </component>
