@@ -4,13 +4,7 @@
     <list default="true" id="30f59bd6-7c09-4a1d-9847-4facff791b55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_2021.c/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/rock.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials/rock.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/Materials/rock.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/rock mat.physicsMaterial2D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cenario/rock mat.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gerenciadores/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gerenciadores/AudioManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +15,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gerenciadores/GeneralAudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player/Movement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/player/NewMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/player/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gerenciadores/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gerenciadores/GeneralAudioController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnma7wW6SlEAtnNaMyDDkqh6MP" />
@@ -71,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612034296417</updated>
-      <workItem from="1612034349659" duration="7120000" />
+      <workItem from="1612034349659" duration="9106000" />
     </task>
     <servers />
   </component>
