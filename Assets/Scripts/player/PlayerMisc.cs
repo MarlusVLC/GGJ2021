@@ -7,8 +7,8 @@ using UnityEngine;
 public class PlayerMisc : MonoBehaviour
 {
     [SerializeField] private AudioClip woodKnock;
+    [SerializeField] private AudioClip swirl;
 
-    
     private Rigidbody2D _rb;
     
     void Start()
@@ -27,6 +27,7 @@ public class PlayerMisc : MonoBehaviour
     {
         if (other.CompareTag("WhirlpoolsEye"))
         {
+            AudioManager.getInstance.PlayAudio(swirl);
             Die();
         }
     }
