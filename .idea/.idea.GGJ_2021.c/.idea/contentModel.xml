@@ -7,18 +7,21 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="Gerenciadores" t="Include">
-            <e p="AudioManager.cs" t="Include" />
-            <e p="GeneralBgSfxController.cs" t="Include" />
-            <e p="GeneralTrackController.cs" t="Include" />
+          <e p="Aux Classes" t="Include">
+            <e p="RespawnState.cs" t="Include" />
           </e>
+          <e p="GameManager.cs" t="Include" />
           <e p="player" t="Include">
-            <e p="checkDistance.cs" t="Include" />
             <e p="collision.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
             <e p="NewMovement.cs" t="Include" />
+            <e p="PlayerMisc.cs" t="Include" />
           </e>
           <e p="SimpleBGScroll.cs" t="Include" />
+          <e p="Whirlpool" t="Include">
+            <e p="SimpleRotation.cs" t="Include" />
+            <e p="WhirlpoolBehaviour.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="GGJ_2021.c.sln" t="IncludeFlat" />
