@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class collision : MonoBehaviour
 {
-
+    
     public BoxCollider2D bc;
-
+    [SerializeField] private AudioClip woodKnoc;
+    
     void enableCollider()
     {
         bc.enabled = false;
@@ -15,6 +16,8 @@ public class collision : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
+        
+        AudioManager.getInstance.PlayAudio(woodKnoc);
         switch(coll.gameObject.name)
         {
             case "rock_small":
