@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6432289239880559317}
   - component: {fileID: 6432289239880559315}
   - component: {fileID: 6432289239880559312}
+  - component: {fileID: -8690463196394906587}
+  - component: {fileID: -2598529797050781667}
   m_Layer: 0
   m_Name: Barquinho
   m_TagString: Player
@@ -159,3 +161,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   turnThrust: 1.5
+--- !u!81 &-8690463196394906587
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432289239880559311}
+  m_Enabled: 1
+--- !u!114 &-2598529797050781667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432289239880559311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac4ad1a0afb11243a26e7d438c44e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodKnock: {fileID: 8300000, guid: eedd0c6e4faef5f4a8314ec832a52e8c, type: 3}

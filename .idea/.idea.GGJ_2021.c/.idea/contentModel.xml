@@ -10,7 +10,12 @@
           <e p="Aux Classes" t="Include">
             <e p="RespawnState.cs" t="Include" />
           </e>
-          <e p="GameManager.cs" t="Include" />
+          <e p="Gerenciadores" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="GeneralBgSfxController.cs" t="Include" />
+            <e p="GeneralTrackController.cs" t="Include" />
+          </e>
           <e p="player" t="Include">
             <e p="collision.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
