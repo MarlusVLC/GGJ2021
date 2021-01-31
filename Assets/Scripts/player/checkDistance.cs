@@ -32,10 +32,8 @@ public class checkDistance : MonoBehaviour
         {
             for (int i = 0; i < colliders.Count; i++)
             {
-                colliders.RemoveAt(i);
                 Destroy(colliders[i].gameObject);
             }
-            colliders.Clear();
         }
     }
 }
