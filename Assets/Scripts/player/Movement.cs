@@ -42,6 +42,11 @@ public class Movement : MonoBehaviour
         _rb.AddForce(_moveDirection * moveSpeed);
     }
 
+    public void speedBonus()
+    {
+        Debug.Log("chamei a função");
+    }
+
     void Rotate()
     {
         float angle = Mathf.Atan2(_moveDirection.y, _moveDirection.x) * Mathf.Rad2Deg + _defaultAngle;
