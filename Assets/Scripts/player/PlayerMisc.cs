@@ -6,7 +6,11 @@ using UnityEngine;
 
 public class PlayerMisc : MonoBehaviour
 {
+    [SerializeField] private AudioClip woodKnock;
+
+    
     private Rigidbody2D _rb;
+    
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -25,6 +29,11 @@ public class PlayerMisc : MonoBehaviour
         {
             Die();
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        AudioManager.getInstance.PlayAudio(woodKnock);
     }
 
     private void Die()
